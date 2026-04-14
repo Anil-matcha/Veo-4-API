@@ -7,6 +7,8 @@
 
 The most comprehensive Python wrapper for the **Veo 4 API** (developed by Google DeepMind), delivered via [muapi.ai](https://muapi.ai). Generate native 4K AI videos up to 30 seconds with integrated audio, character consistency, and advanced camera controls — Google's most powerful video generation model.
 
+Join subreddit [Veo4](https://www.reddit.com/r/Veo4_/) for discussion
+
 > 🌊 **Also explore these top AI video models:**
 > - [Seedance 2.0 API](https://github.com/Anil-matcha/Seedance-2.0-API) — ByteDance's cinematic 2K video model with character sheets & omni-reference
 > - [HappyHorse 1.0 API](https://github.com/Anil-matcha/HappyHorse-1.0-API) — Alibaba's #1 ranked model (1392 Elo I2V) with native 1080p & integrated audio
