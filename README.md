@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/anil-matcha-veo-4-api-badge.png)](https://mseep.ai/app/anil-matcha-veo-4-api)
+
 # Veo 4 API: Python Wrapper for Google DeepMind's AI Video Generator
 
 [![PyPI version](https://img.shields.io/pypi/v/veo-4-api.svg)](https://pypi.org/project/veo-4-api/)
