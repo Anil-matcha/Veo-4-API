@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://muapi.ai/claude-fable-5"><img src="images/en.png" alt="Claude Fable 5 high usecase repository banner" width="760"></a>
+<a href="https://muapi.ai/playground/claude-fable-5"><img src="images/banner.png" alt="Claude Fable 5 high usecase repository banner" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on MuAPI](https://img.shields.io/badge/Try_it_on-MuAPI-black)](https://muapi.ai/claude-fable-5)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://muapi.ai/claude-fable-5)
+[![Try it on MuAPI](https://img.shields.io/badge/Try_it_on-MuAPI-black)](https://muapi.ai/playground/claude-fable-5)
+[![Website](https://img.shields.io/badge/Website-Live-orange)](https://muapi.ai/playground/claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.muapi.ai)
 
 [![English](https://img.shields.io/badge/English-Read-111111)](README.md)
@@ -31,7 +31,7 @@ This English source README focuses on high-signal cases with concrete workflows,
 
 Most cases are curated from X/Twitter posts and public demos. Each case title links back to the original source and each author handle links to the creator profile.
 
-Try it on MuAPI: [Claude Fable 5](https://muapi.ai/claude-fable-5)
+Try it on MuAPI: [Claude Fable 5](https://muapi.ai/playground/claude-fable-5)
 
 ## 📊 Overview
 
@@ -46,25 +46,23 @@ Try it on MuAPI: [Claude Fable 5](https://muapi.ai/claude-fable-5)
 <a id="-quick-api-access"></a>
 ## ⚡ Quick API Access
 
-Use Claude Fable 5 through the MuAPI-compatible Messages API. Get an API token from [MuAPI](https://muapi.ai), then replace `<token>` with your token.
+Use Claude Fable 5 via the [MuAPI](https://muapi.ai/playground/claude-fable-5) REST API. Get your API key from [muapi.ai](https://muapi.ai), then replace `MUAPIAPP_API_KEY` with your key.
 
 ```bash
-curl --request POST \
-  --url https://api.muapi.ai/v1/messages \
-  --header 'Authorization: Bearer <token>' \
-  --header 'Content-Type: application/json' \
-  --data '
-{
-  "model": "claude-fable-5",
-  "max_tokens": 1024,
-  "messages": [
-    {
-      "role": "user",
-      "content": "Hello, world"
-    }
-  ]
-}
-'
+# Submit a task
+curl --location --request POST "https://api.muapi.ai/api/v1/claude-fable-5" \
+  --header "Content-Type: application/json" \
+  --header "x-api-key: MUAPIAPP_API_KEY" \
+  --data-raw '{
+      "prompt": "Explain quantum entanglement in simple terms.",
+      "image_url": "",
+      "system_prompt": "You are a concise and precise assistant."
+  }'
+
+# Poll for results
+curl --location --request GET "https://api.muapi.ai/api/v1/predictions/{request_id}/result" \
+  --header "Content-Type: application/json" \
+  --header "x-api-key: MUAPIAPP_API_KEY"
 ```
 
 ## 📑 Menu
