@@ -1,5 +1,8 @@
 # Veo 4 API: Python Wrapper for Google DeepMind's AI Video Generator
 
+[![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://muapi.ai?utm_source=github&utm_medium=badge&utm_campaign=veo-4-api)
+
+
 [![PyPI version](https://img.shields.io/pypi/v/veo-4-api.svg)](https://pypi.org/project/veo-4-api/)
 [![GitHub stars](https://img.shields.io/github/stars/Anil-matcha/Veo-4-API.svg)](https://github.com/Anil-matcha/Veo-4-API/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
