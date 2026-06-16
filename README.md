@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-The most comprehensive Python wrapper for the **Veo 4 API** (developed by Google DeepMind), delivered via [muapi.ai](https://muapi.ai). Generate native 4K AI videos up to 30 seconds with integrated audio, character consistency, and advanced camera controls — Google's most powerful video generation model.
+The most comprehensive Python wrapper for the **Veo 4 API** (developed by Google DeepMind), delivered via [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=veo-4-api). Generate native 4K AI videos up to 30 seconds with integrated audio, character consistency, and advanced camera controls — Google's most powerful video generation model.
 
 Join subreddit [Veo4](https://www.reddit.com/r/Veo4_/) for discussion
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ```
 
 ### Configuration
-Create a `.env` file in the root directory and add your [MuAPI](https://muapi.ai) API key:
+Create a `.env` file in the root directory and add your [MuAPI](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=veo-4-api) API key:
 ```env
 MUAPI_API_KEY=your_muapi_api_key_here
 ```
@@ -321,7 +321,7 @@ curl --location --request POST "https://api.muapi.ai/api/v1/veo-4-video-edit" \
 ---
 
 ## 🔗 Official Resources
-- **API Provider**: [MuAPI.ai](https://muapi.ai)
+- **API Provider**: [MuAPI.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=veo-4-api)
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
