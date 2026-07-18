@@ -20,6 +20,7 @@ Join subreddit [Veo4](https://www.reddit.com/r/Veo4_/) for discussion
 
 - [veo4-video-generator](https://github.com/SamurAIGPT/veo4-video-generator) — Ready-made Next.js SaaS built on Veo 4
 - [veo3.1-comfyui](https://github.com/Anil-matcha/veo3.1-comfyui) — Run Veo 3.1 inside ComfyUI
+- [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) — compare AI video models by API, price & speed
 
 ## 🚀 Why Use Veo 4 API?
 
