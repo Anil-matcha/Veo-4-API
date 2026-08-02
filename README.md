@@ -18,6 +18,8 @@ Join subreddit [Veo4](https://www.reddit.com/r/Veo4_/) for discussion
 
 ## Related Projects
 
+- [Veo 4 on MuAPI](https://muapi.ai/veo-4) — Model landing page for the wrapper's video and audio workflows.
+- [Veo 4 text-to-video playground](https://muapi.ai/playground/veo-4-text-to-video) — Try Veo 4 directly in the browser.
 - [MiniMax-H3-API](https://github.com/Anil-matcha/MiniMax-H3-API) — Python SDK for MiniMax H3 text-to-video, image-to-video, and first/last-frame video generation.
 - [Wan-3.0-API](https://github.com/Anil-matcha/Wan-3.0-API) — Python SDK and MCP server for Wan 3.0-compatible text-to-video, image-to-video, and multimodal reference workflows.
 - [veo4-video-generator](https://github.com/SamurAIGPT/veo4-video-generator) — Ready-made Next.js SaaS built on Veo 4
